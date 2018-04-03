@@ -1,7 +1,7 @@
 body {
   background-color: lightskyblue;
 }
-body .section_header {
+body .title {
   color: white;
   text-align: center;
   font-size: 40px;
@@ -27,4 +27,8 @@ body .yes {
 }
 body .no {
   color: red;
+}
+body form {
+  width: 50%;
+  margin: auto;
 }
