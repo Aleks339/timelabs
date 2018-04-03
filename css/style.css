@@ -1,6 +1,14 @@
 body {
   background-color: lightskyblue;
 }
+body .navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+body .anchor {
+  padding-top: 80px;
+}
 body .title {
   color: white;
   text-align: center;
