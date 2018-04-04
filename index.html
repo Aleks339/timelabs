@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Document</title>
     <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -10,17 +11,24 @@
     <header>
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
           <a class="navbar-brand" href="#">Радиопоглощающие материалы</a>
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#top">Описание</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#advantages">Преимущества</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#feedback">Обратная связь</a>
-            </li>
-          </ul>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Navbar links -->
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#top">Описание</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#advantages">Преимущества</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#feedback">Обратная связь</a>
+                </li>
+              </ul>
+            </div>
         </nav>
     </header>
     <main>
@@ -146,6 +154,10 @@
           <div class="form-group">
             <label for="pwd">Пароль:</label>
             <input type="password" class="form-control" id="pwd">
+          </div>
+          <div class="form-group">
+              <label for="comment">Комментарий:</label>
+              <textarea class="form-control" rows="5" id="comment"></textarea>
           </div>
           <div class="form-check">
             <label class="form-check-label">
