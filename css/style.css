@@ -48,6 +48,7 @@ body footer form {
 }
 body footer form button {
   margin-bottom: 30px;
+  cursor: pointer;
 }
 @media screen and (max-width: 800px) {
   .carousel-caption p,
@@ -57,11 +58,5 @@ body footer form button {
   .carousel-inner img {
     width: 100%!important;
     height: 100%!important;
-  }
-}
-@media screen and (max-width: 400px) {
-  .carousel-caption p,
-  .carousel-caption h3 {
-    font-size: 100%!important;
   }
 }
