@@ -1,4 +1,5 @@
 @bgColor:lightskyblue;
+@h1Color:black;
 @titleColor:white;
 @carouselCaptionColor:black;
 
@@ -9,13 +10,19 @@ body{
         width:100%;
         z-index: 100;
     }
+    h1{
+      color:@h1Color;
+      text-align: center;
+      font-size: 45px;
+      margin-bottom: -50px;
+    }
     .anchor{
         padding-top: 80px;
     }
     .title{
         color: @titleColor;
         text-align: center;
-        font-size: 40px;
+        font-size: 30px;
     }
     .carousel-inner img {
       width: 50%;
